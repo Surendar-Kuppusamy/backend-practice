@@ -17,3 +17,9 @@ Process:
 *) Create index file and update you code.
 *) Finally, run command "npm link", it make your code available globally.
 *) Run command "npm link [package-name]" to install your package on node_modules folder.
+
+Important Notes:
+-----------------
+*) Don't use "npm link", it is not secure approach.
+*) Instead run command "npm pack", it will automatically creates one file with "[package-name]-[verion].tgz".
+*) Then, copy the file and paste that file on which project you want to use this library.
