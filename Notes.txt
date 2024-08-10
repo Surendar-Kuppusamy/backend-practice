@@ -1,3 +1,19 @@
 Reference Link: https://www.freecodecamp.org/news/how-to-create-and-publish-your-first-npm-package/
+
+Git Sync up Process:
+----------------------
 *) First, open the folder in vs code.
-*) 
+*) Then, sync your git respository via "Add Remote" on source control.
+*) Checkout to master branch.
+*) Create new branch via command "git branch create-node-modules-package"
+*) Checkout to the new branch via command "git checkout create-node-modules-package"
+*) Publish the branch.
+*) Then start work now,
+
+Process:
+--------
+*) Create project via command, "npm init"
+*) It will ask project details and git respository
+*) Create index file and update you code.
+*) Finally, run command "npm link", it make your code available globally.
+*) Run command "npm link [package-name]" to install your package on node_modules folder.

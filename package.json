@@ -1,0 +1,19 @@
+{
+  "name": "create-node-modules-package",
+  "version": "1.0.0",
+  "description": "Create node module packages and re-use it in some other packages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Surendar-Kuppusamy/backend-practice.git"
+  },
+  "author": "Surendar Kuppusamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Surendar-Kuppusamy/backend-practice/issues"
+  },
+  "homepage": "https://github.com/Surendar-Kuppusamy/backend-practice#readme"
+}
